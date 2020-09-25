@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("just a test")
 	names := make([]string, 0)
 
 	scanner := bufio.NewScanner(os.Stdin)
